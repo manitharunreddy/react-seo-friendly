@@ -6,6 +6,10 @@ import { resolve } from "node:path";
 
 export default defineConfig({
   base: "/react-seo-friendly/",
+  // build: {
+  //   sourcemap: false,
+  //   minify: true,
+  // },
   plugins: [
     react(),
     tailwindcss(),

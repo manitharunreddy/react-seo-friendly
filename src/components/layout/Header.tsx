@@ -22,7 +22,8 @@ function Header() {
     }`;
 
   return (
-    <header className="sticky top-0 z-50 border-b border-gray-800 bg-gray-950/95 text-white backdrop-blur-md">
+    <header className="fixed top-0 left-0 z-50 w-full border-b border-gray-800 bg-gray-950/95 text-white backdrop-blur-md">
+      {" "}
       <nav
         className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8"
         aria-label="Main navigation"
@@ -92,7 +93,6 @@ function Header() {
           )}
         </button>
       </nav>
-
       {/* Mobile Dropdown */}
       <div
         id="mobile-navigation"
