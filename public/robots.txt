@@ -1,0 +1,5 @@
+
+User-agent: *
+Allow: /
+
+Sitemap: https://manitharunreddy.github.io/react-seo-friendly/sitemap.xml
